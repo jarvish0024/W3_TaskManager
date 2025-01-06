@@ -117,7 +117,7 @@ function TaskManager() {
   return (
 
       <div className='flex flex-col items-center
-      w-[50vw] m-auto mt-5 bg-red-400 '>
+      w-[50vw] m-auto mt-5 bg-blue-400 '>
           <h1 className='mb-4 text-2xl font-semibold'>Task Manager App</h1>
           {/* Input and Search box */}
           <div className='flex items-center gap-2'>
@@ -131,7 +131,7 @@ function TaskManager() {
                   />
                   <button
                       onClick={handleTask}
-                      className='bg-blue-600'
+                      className='bg-red-600'
                   >
                       <FaPlus className='m-2 ' />
                   </button>
@@ -139,7 +139,7 @@ function TaskManager() {
 
               <div className='flex items-center'>
                   <span
-                      className='bg-blue-600 p-2 '
+                      className='bg-green-600 p-2 '
                   >
                       <FaSearch />
                   </span>
